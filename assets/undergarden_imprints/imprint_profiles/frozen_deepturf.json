@@ -1,0 +1,45 @@
+{
+  "layers": [
+    {
+      "value": 1,
+      "enable": true,
+      "expand": 0,
+      "innerJitter": 0.0,
+      "outerJitter": 0.15,
+      "erosion": 0.2
+    },
+    {
+      "value": 2,
+      "enable": true,
+      "expand": 2,
+      "innerJitter": 0.22,
+      "outerJitter": 0.55,
+      "erosion": 0.35
+    }
+  ],
+  "supportedBlocks": [
+    "undergarden:frozen_deepturf_block"
+  ],
+  "surface": {
+    "mode": "TOP",
+    "zeroLayerSource": "SURFACE"
+  },
+  "textureSets": {
+    "selected": "standard",
+    "initLayer": "undergarden:block/frozen_deepturf_block_top",
+    "texturesByValue": {
+      "light": {
+        "1": "undergarden_imprints:block/imprints/frozen_deepturf/light_frozen_deepturf_layer_1",
+        "2": "undergarden_imprints:block/imprints/frozen_deepturf/light_frozen_deepturf_layer_2"
+      },
+      "standard": {
+        "1": "undergarden_imprints:block/imprints/frozen_deepturf/standard_frozen_deepturf_layer_1",
+        "2": "undergarden_imprints:block/imprints/frozen_deepturf/standard_frozen_deepturf_layer_2"
+      },
+      "icy": {
+        "1": "undergarden_imprints:block/imprints/frozen_deepturf/icy_frozen_deepturf_layer_1",
+        "2": "undergarden_imprints:block/imprints/frozen_deepturf/icy_frozen_deepturf_layer_2"
+      }
+    }
+  }
+}

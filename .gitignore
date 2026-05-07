@@ -1,0 +1,37 @@
+# Build artifacts (workflow output)
+*.zip
+*.zip.sig
+build/
+dist/
+out/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# IDE / editors
+.vscode/
+.idea/
+*.iml
+*.swp
+*~
+
+# Image editors
+*.psd~
+*.kra~~
+*.aseprite-bak
+.~*
+
+# Temporary / scratch
+tmp/
+scratch/
+*.tmp
+*.bak
+*.orig
+
+# Local-only test setup (если будешь дропать пак в свой .minecraft для теста)
+test-pack/
+.minecraft-test/
