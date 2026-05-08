@@ -4,8 +4,8 @@ source "$(dirname "$0")/lib/common.sh"
 
 TAG="${1:?usage: parse-tag.sh <tag-name>}"
 
-if [[ ! "$TAG" =~ ^([a-z][a-z0-9_-]*)-([0-9]+\.[0-9]+\.[0-9]+(-[a-zA-Z0-9.-]+)?)$ ]]; then
-  fatal "Invalid tag format: '$TAG'. Expected: <pack>-<semver>"
+if [[ ! "$TAG" =~ ^([a-z][a-z0-9_-]*)-v([0-9]+\.[0-9]+\.[0-9]+(-[a-zA-Z0-9.-]+)?)$ ]]; then
+  fatal "Invalid tag format: '$TAG'. Expected: <pack>-v<semver>"
 fi
 
 PACK="${BASH_REMATCH[1]}"
