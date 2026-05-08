@@ -35,3 +35,8 @@ scratch/
 # Local-only test setup (если будешь дропать пак в свой .minecraft для теста)
 test-pack/
 .minecraft-test/
+
+# act (local GitHub Actions runner)
+.secrets
+event*.json
+.actrc.local
