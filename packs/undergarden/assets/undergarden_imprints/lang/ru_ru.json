@@ -1,6 +1,6 @@
 {
-  "profile.undergarden_imprints.frozen_deepturf": "Замёрзшая глубинная трава",
-  "profile.undergarden_imprints.frozen_deepturf.standard": "Стандартный",
-  "profile.undergarden_imprints.frozen_deepturf.light": "Посветлее",
-  "profile.undergarden_imprints.frozen_deepturf.icy": "Холодный"
+  "imprint_profile.undergarden_imprints.frozen_deepturf": "Замёрзшая глубинная трава",
+  "imprint_profile.undergarden_imprints.frozen_deepturf.standard": "Стандартный",
+  "imprint_profile.undergarden_imprints.frozen_deepturf.light": "Посветлее",
+  "imprint_profile.undergarden_imprints.frozen_deepturf.icy": "Холодный"
 }
