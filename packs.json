@@ -1,0 +1,16 @@
+{
+  "packs": {
+    "faithful_32": {
+      "name": "Faithful Imprints x32",
+      "dir": "packs/faithful_32"
+    },
+    "faithful_64": {
+      "name": "Faithful Imprints x64",
+      "dir": "packs/faithful_64"
+    },
+    "undergarden": {
+      "name": "Undergarden Imprints",
+      "dir": "packs/undergarden"
+    }
+  }
+}

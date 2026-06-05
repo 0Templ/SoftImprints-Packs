@@ -4,6 +4,8 @@
 build/
 dist/
 out/
+test/
+node_modules/
 
 # OS junk
 .DS_Store
@@ -40,3 +42,5 @@ test-pack/
 .secrets
 event*.json
 .actrc.local
+
+

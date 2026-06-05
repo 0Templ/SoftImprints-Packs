@@ -1,6 +1,8 @@
 {
   "pack": {
-    "description": "Undergarden Imprints\nSoft Imprints profile(s)",
+    "description": {
+      "translate": "x32 Imprint profiles. Sand, Red Sand and Snow"
+    },
     "pack_format": 34,
     "supported_formats": [34, 64],
     "min_format": [34, 0],

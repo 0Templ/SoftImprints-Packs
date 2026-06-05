@@ -1,0 +1,55 @@
+{
+  "version" : 2,
+  "priority" : 100,
+  "resolution" : {
+    "map_size" : 32
+  },
+  "surface": {
+    "mode": "repaint",
+    "zero_layer_source": "surface"
+  },
+  "supported_blocks": [
+    "minecraft:red_sand"
+  ],
+  "preview": {
+    "base": "faithful_imprints_32:block/imprints/red_sand/red_sand_base",
+    "icon": "faithful_imprints_32:block/imprints/red_sand/red_sand_icon"
+  },
+  "texture_sets": {
+    "selected": "standard",
+    "zero_layer": "minecraft:block/red_sand",
+    "textures_by_value": {
+      "standard": {
+        "1": "faithful_imprints_32:block/imprints/red_sand/sets/standard_red_sand_layer_1",
+        "2": "faithful_imprints_32:block/imprints/red_sand/sets/standard_red_sand_layer_2",
+        "3": "faithful_imprints_32:block/imprints/red_sand/sets/standard_red_sand_layer_3"
+      }
+    }
+  },
+  "layers": [
+    {
+      "value": 1,
+      "enable": true,
+      "expand": 0,
+      "inner_jitter": 0.0,
+      "outer_jitter": 0.2,
+      "erosion": 0.0
+    },
+    {
+      "value": 2,
+      "enable": true,
+      "expand": 3,
+      "inner_jitter": 0.35,
+      "outer_jitter": 0.26,
+      "erosion": 0.3
+    },
+    {
+      "value": 3,
+      "enable": true,
+      "expand": 2,
+      "inner_jitter": 0.15,
+      "outer_jitter": 0.6,
+      "erosion": 0.55
+    }
+  ]
+}

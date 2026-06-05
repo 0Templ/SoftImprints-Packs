@@ -1,0 +1,14 @@
+{
+  "name": "imprint-packs",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "desc...",
+  "scripts": {
+    "pack": "node scripts/pack.mjs",
+    "pack:all": "node scripts/pack.mjs --all"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1"
+  }
+}

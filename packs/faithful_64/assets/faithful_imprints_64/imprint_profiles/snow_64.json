@@ -1,0 +1,56 @@
+{
+  "version" : 2,
+  "priority" : 100,
+  "resolution" : {
+    "map_size" : 64
+  },
+  "surface": {
+    "mode": "repaint",
+    "zero_layer_source": "surface"
+  },
+  "supported_blocks": [
+    "minecraft:snow",
+    "minecraft:snow_block"
+  ],
+  "preview": {
+    "base": "faithful_imprints_64:block/imprints/snow/snow_base",
+    "icon": "faithful_imprints_64:block/imprints/snow/snow_icon"
+  },
+  "texture_sets": {
+    "selected": "standard",
+    "zero_layer": "minecraft:block/snow",
+    "textures_by_value": {
+      "standard": {
+        "1": "faithful_imprints_64:block/imprints/snow/sets/standard_snow_layer_1",
+        "2": "faithful_imprints_64:block/imprints/snow/sets/standard_snow_layer_2",
+        "3": "faithful_imprints_64:block/imprints/snow/sets/standard_snow_layer_3"
+      }
+    }
+  },
+  "layers": [
+    {
+      "value": 1,
+      "enable": true,
+      "expand": 0,
+      "inner_jitter": 0.0,
+      "outer_jitter": 0.0,
+      "erosion": 0.0
+    },
+    {
+      "value": 2,
+      "enable": true,
+      "expand": 4,
+      "inner_jitter": 0.27,
+      "outer_jitter": 0.61,
+      "erosion": 0.65
+    },
+    {
+      "value": 3,
+      "enable": true,
+      "expand": 3,
+      "inner_jitter": 0.15,
+      "outer_jitter": 0.27,
+      "erosion": 0.65
+    }
+  ]
+}
