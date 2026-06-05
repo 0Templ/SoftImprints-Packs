@@ -5,7 +5,7 @@ and have been modified for use with the Soft Imprints mod.
 
 - **Source:** Faithful Resource Pack — <https://faithfulpack.net/>
 - **License:** Faithful License — included unmodified as `LICENSE.txt`, as required.
-- **Modifications:** the original 32x textures.
+- **Modifications:** the original 64x textures.
 
 
 The original content of this pack (imprint profile JSON, metadata, language
