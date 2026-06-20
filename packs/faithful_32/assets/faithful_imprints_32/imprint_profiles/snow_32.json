@@ -14,7 +14,7 @@
   ],
   "preview": {
     "base": "faithful_imprints_32:block/imprints/snow/snow_base",
-    "icon": "faithful_imprints_32:block/imprints/snow/snow_icon"
+    "icon": "faithful_imprints_32:icon/snow/snow_icon"
   },
   "texture_sets": {
     "selected": "standard",

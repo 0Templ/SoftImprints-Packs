@@ -4,8 +4,8 @@
       "translate": "x64 Imprint profiles. Sand, Red Sand and Snow"
     },
     "pack_format": 34,
-    "supported_formats": [34, 64],
+    "supported_formats": [34, 88],
     "min_format": [34, 0],
-    "max_format": [84, 0]
+    "max_format": [88.0, 0]
   }
 }
