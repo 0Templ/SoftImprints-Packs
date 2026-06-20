@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.0.2a]
+- Fixed profile icons
+
 ## [0.0.2]
 - Bump pack version for mc 26.2
 - Update icon paths for the latest mod version

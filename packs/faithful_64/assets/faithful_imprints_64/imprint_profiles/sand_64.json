@@ -13,7 +13,7 @@
   ],
   "preview": {
     "base": "faithful_imprints_64:block/imprints/sand/sand_base",
-    "icon": "faithful_imprints_64:block/imprints/sand/sand_icon"
+    "icon": "faithful_imprints_64:icon/sand/sand_icon"
   },
   "texture_sets": {
     "selected": "standard",
